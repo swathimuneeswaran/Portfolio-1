@@ -1,9 +1,16 @@
-/* Global Reset */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Prevent extra white space on body and HTML */
+html, body {
+  overflow-x: hidden;
+}
+
 
 /* Logo */
 .logo {
@@ -88,7 +95,7 @@
 @media (max-width: 450px) {
  
   .header{
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
   }
 
@@ -121,7 +128,7 @@
 @media (min-width: 451px) and (max-width: 699px) {
  
   .header{
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
   }
 
