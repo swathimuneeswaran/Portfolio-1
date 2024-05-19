@@ -88,7 +88,8 @@
 @media (max-width: 450px) {
  
   .header{
-    width: 33%;
+    width: 50%;
+    margin-left: 30px;
   }
 
   .nav_list {
@@ -117,10 +118,11 @@
 }
 
 
-@media (max-width: 700px) {
+@media (min-width: 451px) and (max-width: 699px) {
  
   .header{
-    width: 33%;
+    width: 50%;
+    margin-left: 70px;
   }
 
   .nav_list {
@@ -148,3 +150,39 @@
   }
 }
 
+@media (min-width:701px) and (max-width:1000px){
+  .header{
+    width:100%;
+  }
+
+  .nav_list {
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+  }
+
+  .nav1 {
+    width: auto;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: block;
+    width:50px !important;
+    height: 30px!important;
+  }
+}
+
+@media (min-width:1001px)
+{
+  .nav_list{
+    display: flex!important;
+  }
+}

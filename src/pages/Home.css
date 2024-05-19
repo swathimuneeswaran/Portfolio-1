@@ -235,7 +235,7 @@
     align-items: center!important;
   }
   .image{
-    width:180px!important;
+    width:200px!important;
     height: 250px !important;
   }
   .home-content{
@@ -245,7 +245,7 @@
     
   }
   .text-animation{
-    text-align: center;
+    text-align: center!important;
     font-size: 25px;
   }
   .home-content p{
