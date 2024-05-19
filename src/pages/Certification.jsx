@@ -5,7 +5,7 @@ const Certification = () => {
   return (
     <>
     <div className="full">
-    <img src="https://png.pngtree.com/png-vector/20220517/ourmid/pngtree-award-vector-icon-certificate-best-png-image_4661009.png" width="300px" height="200px" style={{marginRight:"50px",cursor:"pointer"}}></img>
+    <img src="https://png.pngtree.com/png-vector/20220517/ourmid/pngtree-award-vector-icon-certificate-best-png-image_4661009.png" width="300px" height="200px" style={{marginRight:"50px",cursor:"pointer"}} className='certi'></img>
     {/* <h3 style={{color:"white",marginLeft:"0px",marginRight:"20px"}}>=====></h3> */}
      <table style={{height:"300px",textAlign:"center"}}>
        <thead style={{height:"50px"}}>

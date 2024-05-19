@@ -222,7 +222,7 @@
     width: 300px !important;
   position: absolute;
   height:550px;
-  left: 30px !important;;
+  left: 50px !important;;
   top:160px;
   right: 30px !important;
   
@@ -231,6 +231,8 @@
   .home{
     display: flex;
     flex-direction: column;
+    justify-content: center!important;
+    align-items: center!important;
   }
   .image{
     width:180px!important;
@@ -305,12 +307,12 @@
 @media (min-width:700px) and (max-width:1000px)
 {
   .blur_image{
-    width: auto!important;
+    width: 100%!important;
   }
   .box{
    width:auto !important;
    position: absolute;
-   left:50px !important;
+   left:150px !important;
    height:fit-content;
    right: 50px !important;
   

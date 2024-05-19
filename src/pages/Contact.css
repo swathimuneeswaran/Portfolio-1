@@ -131,4 +131,45 @@
       width:300%;
     }
   }
-  
+
+  @media (max-width:450px){
+    .contact {
+      padding: 50px 0;
+      background-image: url("https://i.pinimg.com/originals/d9/46/35/d946357e717ddeb19d4742d51dcd2b61.jpg");
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      width:100%;
+    }
+    .form{
+      width:80%;
+    }
+
+  }
+  @media (min-width: 450px) and (max-width: 699px){
+    .contact {
+      padding: 50px 0;
+      background-image: url("https://i.pinimg.com/originals/d9/46/35/d946357e717ddeb19d4742d51dcd2b61.jpg");
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      width:100%;
+    }
+    .form{
+      width:80%;
+    }
+
+  }
+  @media (min-width:700px) and (max-width:1000px){
+    .contact {
+      padding: 50px 0;
+      background-image: url("https://i.pinimg.com/originals/d9/46/35/d946357e717ddeb19d4742d51dcd2b61.jpg");
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      width:100%;
+    }
+    .form{
+      width:80%;
+    }
+  }
