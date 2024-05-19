@@ -1,0 +1,9 @@
+.full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+table{
+    padding-left: 22px!important;
+}
