@@ -213,36 +213,135 @@
     color: rgb(77, 73, 73);
 }
 
-@media (max-width:800px)
+@media (max-width:450px)
 {
   .blur_image{
-    width: 300%!important;
+    width: 100%;
   }
   .box{
-    width:600px !important;
-   display: flex;
+    width: 300px !important;
+  position: absolute;
+  height:550px;
+  left: 30px !important;;
+  top:160px;
+  right: 30px !important;
+  
+  
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    width:180px!important;
+    height: 250px !important;
+  }
+  .home-content{
+    display: flex;
     justify-content: center;
     align-items: center;
     
   }
+  .text-animation{
+    text-align: center;
+    font-size: 25px;
+  }
+  .home-content p{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .social-icons{
+    margin-top: 0px;
+  }
+
 
 }
 
-
-/* @media (max-width:800px)
-{
-
+@media (min-width: 450px) and (max-width: 699px) {
+  .blur_image{
+    width: 100%;
+  }
   .box{
-    width:600px !important;
-    position: absolute;
-    left:450px
+    width: auto !important;
+  position: absolute;
+  height:550px;
+  left: 30px !important;;
+  top:160px;
+  right: 30px !important;
+  
+  
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    width:180px!important;
+    height: 250px !important;
+  }
+  .home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
   }
-  .blur_image{
-    width: 300%!important;
+  .text-animation{
+    text-align: center;
+    font-size: 25px;
+  }
+  .home-content p{
+    font-size: 15px;
+    text-align: center;
   }
 
-} */
+  .social-icons{
+    margin-top: 0px;
+  }
+}
+
+
+
+@media (min-width:700px) and (max-width:1000px)
+{
+  .blur_image{
+    width: auto!important;
+  }
+  .box{
+   width:auto !important;
+   position: absolute;
+   left:50px !important;
+   height:fit-content;
+   right: 50px !important;
+  
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+  .image{
+    width:180px!important;
+    height: 250px !important;
+  }
+  .home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .text-animation{
+    text-align: center;
+    font-size: 25px;
+  }
+  .home-content p{
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .social-icons{
+    margin-top: 0px;
+  }
+}
 
 
 

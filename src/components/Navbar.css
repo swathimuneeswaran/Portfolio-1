@@ -1,143 +1,179 @@
 /* Global Reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 70px;
+  margin-top: 10px;
+  transform: scale(1);
+  padding: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  text-shadow: 3px 3px slateblue;
+  text-decoration: 2px solid white !important;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Navigation List */
+.nav_list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav_list.show {
+  display: flex;
+}
+
+.nav_list.hide {
+  display: none;
+}
+
+/* Navigation Item */
+.nav1 {
+  text-decoration: none;
+  font-style: italic;
+  box-shadow: 3px 3px rgb(199, 195, 221);
+  background-color: slateblue;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+.nav1:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: slateblue;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+@media (max-width: 450px) {
+ 
+  .header{
+    width: 33%;
   }
-  
-  /* Logo */
-  .logo {
-    text-decoration: none;
-    font-style: italic;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    margin-left: 70px;
-    margin-top: 10px;
-    transform: scale(1);
-    padding: 12px;
-    transition: 0.3s ease-in-out;
-  }
-  
-  .logo:hover {
-    transform: scale(1.1);
-    text-shadow: 3px 3px slateblue;
-    text-decoration: 2px solid white !important;
-  }
-  
-  /* Header */
-  .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    height: 90px;
-    background-color: black;
-    color: white;
-    backdrop-filter: blur(10px);
-    z-index: 100;
-  }
-  
-  /* Navigation List */
+
   .nav_list {
-    display: flex;
-    margin-left: 400px;
-    gap: 30px;
-    padding: 25px;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    padding: 13px;
   }
-  
-  /* Navigation Item */
+
   .nav1 {
-    text-decoration: none;
-    font-style: italic;
-    box-shadow: 3px 3px rgb(199, 195, 221);
-    height: 25px !important;
-    background-color: slateblue;
-    color: white;
-    padding: 8px;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 18px;
   }
-  
-  .nav1:hover {
-    transform: scale(1.2);
-    transition: 1s ease-in-out;
-    background-color: white;
-    color: slateblue;
+
+  .hamburger {
+    display: block;
+    width:50px !important;
+    height: 30px!important;
   }
-  
-  /* Media Queries */
-  @media (max-width: 1200px) {
-    .nav_list {
-      margin-left: 200px;
-      gap: 20px;
-    }
+}
+
+
+@media (max-width: 700px) {
+ 
+  .header{
+    width: 33%;
   }
-  
-  @media (max-width: 992px) {
-    .logo {
-      font-size: 25px;
-      margin-left: 50px;
-    }
-  
-    .nav_list {
-      margin-left: 100px;
-      gap: 15px;
-      padding: 15px;
-    }
-  
-    .nav1 {
-      font-size: 18px;
-      padding: 6px;
-    }
+
+  .nav_list {
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    padding: 13px;
   }
-  
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      align-items: center;
-      width:100%;
-      height: auto;
-      padding: 10px 0;
-    }
-  
-    .logo {
-      margin: 0;
-      padding: 10px;
-    }
-  
-    .nav_list {
-      flex-direction: row;
-      align-items: center;
-      margin: 0;
-      padding: 10px 0;
-      width:100%;
-    }
-  
-    .nav1 {
-      width: 100%;
-      text-align: center;
-      margin: 5px 0;
-    }
+
+  .nav1 {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 18px;
   }
-  
-  @media (max-width: 576px) {
-    .logo {
-      font-size: 20px;
-      padding: 8px;
-    }
-  
-    .nav1 {
-      font-size: 16px;
-      padding: 4px;
-      width:100px;
-      
-    }
-   
-    .nav_list{
-      margin-left: 200px;
-    }
+
+  .hamburger {
+    display: block;
+    width:50px !important;
+    height: 30px!important;
   }
-  
+}
+
+@media (min-width:701px) and (max-width:1000px){
+  .header{
+    max-width: 56.0%;
+  }
+
+  .nav_list {
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+  }
+
+  .nav1 {
+    width: auto;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: block;
+    width:50px !important;
+    height: 30px!important;
+  }
+}
