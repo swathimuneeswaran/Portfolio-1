@@ -95,7 +95,7 @@ html, body {
 @media (max-width: 450px) {
  
   .header{
-    width: 100%;
+    max-width: 40%!important;
     margin-left: 0px;
   }
 
@@ -104,7 +104,7 @@ html, body {
     position: absolute;
     top: 90px;
     left: 0;
-    width: 30%;
+    width: 70%;
     background-color: black;
     text-align: center;
     padding: 13px;
@@ -114,13 +114,16 @@ html, body {
     width: 100%;
     padding: 15px 0;
     margin: 0;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .hamburger {
     display: block;
-    width:50px !important;
+    width:150px !important;
     height: 30px!important;
+  }
+  .logo{
+    display: none;
   }
 }
 
