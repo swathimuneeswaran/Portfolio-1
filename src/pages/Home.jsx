@@ -45,7 +45,7 @@ const Home = () => {
                   <i className="bx bxl-linkedin"></i>
                 </a>
               </div>
-              <a href="https://drive.google.com/file/d/1wW7WTpgjFfhiQ4lzn7iqvbUIq9do5JEp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1cMRqAquXEoEYIZdVrd_bP_5fPZigHz0D/view" target="_blank" rel="noopener noreferrer">
                 <button type='button' className='resume'>Resume</button>
               </a>
             </div>

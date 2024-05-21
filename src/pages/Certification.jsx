@@ -22,7 +22,7 @@ const Certification = () => {
              <td>1</td>
              <td>Guvi Geeks Network</td>
              <td>Nov 2023- Feb 2024</td>
-             <td></td>
+             <td><a href='https://www.guvi.in/share-certificate/25E02F7o1Vz233y12x' target='_blank' style={{color:"white"}}>https://www.guvi.in/share-certificate/25E02F7o1Vz233y12x</a></td>
            </tr>
         
        </tbody>
