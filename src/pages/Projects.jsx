@@ -5,6 +5,7 @@ import mobile from './mobile.png';
 import todo from './todo.png';
 import chat from './chat.png';
 import income from './income.png';
+import crypto from './crypto.png';
 import Navbar from '../components/Navbar';
 
 const projects = [
@@ -53,6 +54,15 @@ const projects = [
     description_two: 'Users can add new books to the library collection and view the list of available books',
     link: 'https://formik-form1.netlify.app/',
     github:'https://github.com/swathimuneeswaran/Formik.git'
+  },
+  {
+    id: 6,
+    title: 'Crypto Price Tracking App',
+    image: crypto,
+    description_one: 'The Crypto Price Tracking App is a dynamic web application built using React.js that allows users to track the latest prices and details of various cryptocurrencies. ',
+    description_two: 'Leveraging the CoinGecko API, the app fetches real-time data on Bitcoin and other digital coins, providing users with up-to-date information on market trends.',
+    link: 'https://cryptopage-project.netlify.app/',
+    github:'https://github.com/swathimuneeswaran/Cryptoplace-Project.git'
   },
 ];
 
