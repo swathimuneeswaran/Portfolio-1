@@ -70,7 +70,7 @@ const Projects = () => {
   return (
     <>
     <Navbar />
-    <section className="services"  style={{height:"auto"}}id="services">
+    <section className="services"  style={{height:"auto" ,marginTop:"5px"}}id="services">
       <h2 className="pro_head">Projects</h2>
       <div className="services-container">
         {projects.map((pro) => (

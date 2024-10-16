@@ -3,6 +3,7 @@ import "./Education.css";
 import educa from "./education.gif"
 import Certification from "./Certification";
 import Navbar from "../components/Navbar";
+import Intern from "./Intern";
 
 
 const education = [
@@ -31,7 +32,7 @@ const Education = () => {
   return (
     <>
     <Navbar />
-      <div className="full_container">
+      <div className="full_container" style={{marginTop:"5px"}}>
       <div className="contain1">
        <img src={educa} width="300px" height="100px" style={{marginRight:"50px"}}></img>
        {/* <h3 style={{color:"white",marginLeft:"0px",marginRight:"20px"}}>=====></h3> */}
@@ -58,6 +59,7 @@ const Education = () => {
         
       </div>
       <Certification />
+      <Intern />
       </div>
   
     

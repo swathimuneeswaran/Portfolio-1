@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Certificate.css"
 
+
 const Certification = () => {
   return (
     <>
@@ -28,6 +29,7 @@ const Certification = () => {
        </tbody>
      </table>
      </div>
+     
     </>
   )
 }

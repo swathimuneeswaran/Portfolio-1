@@ -6,7 +6,7 @@ const Skills = () => {
   return (
    <>
    <Navbar />
-   <section className="skill">
+   <section className="skill" style={{marginTop:"5px"}}>
         <div className="container1" id="skills">
           <div className="head">
             <h2 className="heading12" >My<span style={{color:"aqua"}}> Skills</span></h2>
